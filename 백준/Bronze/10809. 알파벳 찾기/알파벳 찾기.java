@@ -9,6 +9,7 @@ public class Main {
 
        for(char i='a'; i<='z'; i++) {
            System.out.print(s.indexOf(i) + " ");
+           // indexOf 는 값이 없으면 -1 을 리턴한다 !!!!
        }
 
     }
